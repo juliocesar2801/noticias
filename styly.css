@@ -191,7 +191,30 @@ main {
 
     .primeira-seção{
         grid-column: 1/3;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.75rem;
 }
+
+.primeira-seção picture {
+    grid-column: 1/3;
+}
+
+.primeira-seção img{
+    margin: 0;
+}
+
+.primeira-seção h1{
+    font-size: 1.5rem;
+}
+
+.segunda-seção h2{
+    font-size: 2.5rem;
+    
+}
+
+
     header > button{
         display: none;
     
@@ -207,4 +230,5 @@ header.desktop a{
     line-height: 1.625rem;
     text-decoration: none;
     color: var(--gunmetal);
+    }
 }
